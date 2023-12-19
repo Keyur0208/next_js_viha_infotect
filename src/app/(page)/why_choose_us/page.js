@@ -3,7 +3,7 @@ import Bredcrump from '@/app/components/breadcrump/page'
 import Development from '@/app/components/development/page'
 import News from '@/app/components/news/page'
 import Connect from '@/app/components/connect/page'
-import './Why_choose.css'
+import './why_choose.css'
 
 export const metadata = {
   title: "Why Choose"
