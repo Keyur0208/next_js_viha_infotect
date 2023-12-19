@@ -1,0 +1,35 @@
+.language {
+    overflow: hidden;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 100px) {
+
+    .language {
+        margin-top: 0.1rem;
+    }
+}
+
+.sub_language {
+    width: 100px;
+    display: flex;
+    gap: 30px;
+    transform: translateX(0px);
+    animation: 40s linear 0s infinite normal none running slider;
+}
+
+.sub_language img {
+    max-width: 80%;
+    height: auto;
+}
+
+@keyframes slider {
+    100% {
+        transform: translateX(-1174.2px);
+    }
+}
+
+.news_main_section{
+    background-color: #121212;
+    color: white;
+}

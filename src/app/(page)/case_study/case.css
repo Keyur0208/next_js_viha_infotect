@@ -1,0 +1,55 @@
+/* pagination */
+
+.case-study-pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-pagination a{
+    transition: .5s;
+    color: #027EBC;
+    border: 1px solid #027EBC;
+    padding: 0.1rem 0.8rem; 
+    font-size: 20px;
+    margin-left: 0.8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.case-study-pagination a:hover{
+    background-color: #027EBC;
+    color: white;
+}
+
+.case-study-pagination a:active{
+    background-color: white;
+    color: white;
+    border: 1px solid white;
+}
+
+#data{
+    background-color: #027EBC;
+    color: white;
+}
+
+#disabled{
+    background-color: transparent;
+    color: #027EBC;
+    opacity: 0.5;
+}
+
+.left_arrow_pagination{
+    height: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.right_arrow_pagination{
+    height: 2rem;
+    width: 100%;
+    display: flex;
+}
+
