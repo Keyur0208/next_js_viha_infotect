@@ -33,7 +33,7 @@ export default function Our_team() {
                     <div className="row gy-5 team-details">
                         <div className="col-12 col-sm-12 col-md-6 col-xl-3">
                             <Team_member
-                                team_member_img="/vivek.jpg"
+                                team_member_img="/Vivek.jpg"
                                 team_member_name="Vivek Lunagariya"
                                 team_member_role="CEO,Founder"
                             />
@@ -61,7 +61,7 @@ export default function Our_team() {
                         </div>
                         <div className="col-12 col-sm-12 col-md-6 col-xl-3">
                             <Team_member
-                                team_member_img="/Birjesh.jpg"
+                                team_member_img="/Birjesh.JPG"
                                 team_member_name="Bijesh Bagsaria"
                                 team_member_role="CEO,Founder"
                             />

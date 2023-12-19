@@ -34,10 +34,10 @@ export default function Horiztal_navbar() {
                                 <div className="offcanvas-body-navbar">
                                     <ul>
                                         <li className="menu-element2">
-                                            <Link href="/" >Home</Link>
+                                            <a href="/">Home</a>
                                         </li>
                                         <li className="menu-element2">
-                                            <Link href="/about" >About Us</Link>
+                                            <a href="/about" >About Us</a>
                                         </li>
                                         <li className="menu-element2">
                                             <a href="/why_choose_us"> WHY CHOOSE US </a>
